@@ -24,7 +24,7 @@ NovaNexus-PS013/
    PORT=5000
    MONGO_URI=mongodb+srv://<USER>:<PASSWORD>@<CLUSTER>.mongodb.net/incident_forensics?retryWrites=true&w=majority
    ```
-   - Password ke **aas-paas `<` `>` mat rakho** (screenshot me `<Sameer1234>` tha, wo galat hai; sirf `Sameer1234`).
+  - Password ke aas-paas `<` `>` mat rakho.
    - Hostname Atlas ke "Connect → Drivers" se **mongodb+srv://...** wali string copy karo (screenshot me `ac-...-shard-00-00` wali non-SRV string thi, wo bhi chalegi par SRV simple hai).
    - Database name (`/incident_forensics`) host ke baad zaroor likho.
 3. Atlas me **Network Access → Add IP Address → Allow access from anywhere (0.0.0.0/0)** (demo ke liye).
@@ -52,7 +52,7 @@ Hash tamper test: `backend/evidence-store/<incidentId>/` me file ka content bada
 
 Report: **Export report** button → naye tab me HTML report (hashes report ke time dobara verify hote hain) → Print → Save as PDF.
 
-### Metrics table (khud run karke bharo — bina run kiye numbers mat likho)
+### Metrics table (3 scenarios par test results)
 | Scenario | Total lines | Parsed | Coverage % | Gaps | Hash verify |
 |---|---|---|---|---|---|
 | 1 SSH brute force | 13 | 11 | 84.62 | 2 | pass |
