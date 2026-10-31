@@ -1,0 +1,2 @@
+Oct 20 10:02:05 srv1 sshd[1201]: Failed password for root from 203.0.113.77 port 41000 ssh2
+Oct 20 10:02:15 srv1 sshd[1201]: Accepted password for root from 203.0.113.77 port 41001 ssh2
