@@ -112,3 +112,8 @@ https://youtu.be/ppCxTrD-hkw
 
 ### Presentation
 [PS013_NovaNexus_Final.pdf](PS013_NovaNexus_Final.pdf)
+## 🌐 Live Demo
+- Frontend: https://a3-ps-013-tc-145.vercel.app
+- Backend API: https://novanexus-backend.onrender.com
+
+> Note: Free hosting hai, pehli load me ~50 sec lag sakte hain.
